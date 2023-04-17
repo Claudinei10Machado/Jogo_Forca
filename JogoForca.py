@@ -129,7 +129,7 @@ class Game:
                 
             self.__update_label()
         
-with open('/Users/nrm/Documents/1_TI_programação/Python/Jogo_da_forca/resource/palavras.txt') as arquivo:
+with open('Jogo_da_forca/resource/palavras.txt') as arquivo:
     linhas = arquivo.read()
     lista_de_palavras = linhas.split('\n')
 
